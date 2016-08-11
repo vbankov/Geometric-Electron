@@ -1,0 +1,64 @@
+.appContainer{
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid rgba(233, 30, 99, 0.5);
+    width: 6vh;
+    height: 6vh;
+    
+    max-width: 75px;
+    max-height: 75px;
+    
+    background: #E91E63;
+    float: left;
+    margin: 5px;
+}
+.circle-inline{display: inline-block;margin-right: 4px;}
+.hidden{display:none}
+.flexCenter{position:relative; text-align: center;display:flex;justify-content:center;}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.rightFlex {
+    display: flex;
+    justify-content: right;
+}
+.topBar{
+	height: 50px;
+
+}
+.btn-square, .btn-diamond{
+    outline: none;
+	margin:10px auto;
+    
+}
+.btn-square:hover, .btn-diamond:hover {
+	background-color: #EF9A9A!important;
+    cursor: pointer;
+}
+.btn-square{
+    margin-right: 5px;
+}
+.btn-diamond{
+    margin-left: 5px;
+}
+.height20{ height: 20px }
+
+.shapeTransition-appear {
+    opacity: 0.01;
+}
+
+.shapeTransition-appear.shapeTransition-appear-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
+.shapeContainer{
+    padding-top: 20px;
+}
+.container-fluid{overflow: hidden;}
